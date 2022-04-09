@@ -14,7 +14,7 @@ public class Reqresin {
     }
 
     public void UserNotFound() {
-        SerenityRest.get(url + "/api/users/2");
+        SerenityRest.get(url + "/api/users/23");
     }
     public void PostLogin () {
         JSONObject bodyJson = new JSONObject();
