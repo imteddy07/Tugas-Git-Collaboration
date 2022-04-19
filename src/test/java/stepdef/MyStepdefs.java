@@ -27,35 +27,5 @@ public class MyStepdefs {
             restAssuredThat(response -> response.assertThat().body(matchesJsonSchemaInClasspath(path)));
     }
 
-    @When("User send other GET HTTP requset to reqresin")
-    public void userSendOtherGETHTTPRequsetToReqresin() {
-        reqresin.UserNotFound();
-    }
-
-    @When("User send POST register HTTP request to reqresin")
-    public void userSendPOSTRegisterHTTPRequestToReqresin() {
-        reqresin.PostRegister();
-    }
-
-    @When("User send POST create HTTP request to reqresin")
-    public void userSendPOSTCreateHTTPRequestToReqresin() {
-        reqresin.PostCreate();
-    }
-
-    @When("User send PUT update HTTP request to reqresin")
-    public void userSendPUTUpdateHTTPRequestToReqresin() {
-        reqresin.PutUpdate();
-    }
-
-    @When("User send Delete data HTTP request to reqresin")
-    public void userSendDeleteDataHTTPRequestToReqresin() {
-        reqresin.DeleteData();
-    }
-
-    @When("User send POST login HTTP request to reqresin")
-    public void userSendPOSTLoginHTTPRequestToReqresin() {
-        reqresin.PostLogin();
-    }
-
 
 }
